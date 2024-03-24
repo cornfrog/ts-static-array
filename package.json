@@ -1,0 +1,20 @@
+{
+  "name": "static-array",
+  "version": "1.0.0",
+  "main": "build/main.js",
+  "author": "cornfrog <thecornfrog@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "tsc",
+    "start": "yarn clean && yarn build && node ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
